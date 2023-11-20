@@ -1,0 +1,47 @@
+/* .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(56, 56, 53);
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/33bfd960-07c9-43f5-9a2b-30f3e0395c3f/d60bano-bbf3b467-b723-4e60-8e7c-f678a9ac8949.png/v1/fill/w_1192,h_670,q_70,strp/muhammad_ali___wallpaper_1920_x_1080_by_angelus23_d60bano-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcLzMzYmZkOTYwLTA3YzktNDNmNS05YTJiLTMwZjNlMDM5NWMzZlwvZDYwYmFuby1iYmYzYjQ2Ny1iNzIzLTRlNjAtOGU3Yy1mNjc4YTlhYzg5NDkucG5nIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.UbyvWK1uCeeXjoWa3zAnnIgO-0Predn_OaOR4IJkZrk');
+}
+
+.textareaCenter {
+    background-color: rgb(178, 221, 223);
+    width: 50%;
+} */
+
+.center{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+    background-color:rgb(56, 56, 53);
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/33bfd960-07c9-43f5-9a2b-30f3e0395c3f/d60bano-bbf3b467-b723-4e60-8e7c-f678a9ac8949.png/v1/fill/w_1192,h_670,q_70,strp/muhammad_ali___wallpaper_1920_x_1080_by_angelus23_d60bano-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcLzMzYmZkOTYwLTA3YzktNDNmNS05YTJiLTMwZjNlMDM5NWMzZlwvZDYwYmFuby1iYmYzYjQ2Ny1iNzIzLTRlNjAtOGU3Yy1mNjc4YTlhYzg5NDkucG5nIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.UbyvWK1uCeeXjoWa3zAnnIgO-0Predn_OaOR4IJkZrk');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    flex-direction: column;
+    /* margin-bottom: 500px; */
+    }
+    
+    .todoListBox{
+      background-color: rgb(199, 215, 216);  
+    }
+
+    
+    .app-title{
+        color: white;
+        size: 30px;
+        
+    }
+
+    .btn-align{
+        flex-direction: row;
+        margin-bottom: 26px;
+    }
+
+    .clr-btn-align{
+        margin-right:  2px;
+    }

@@ -1,0 +1,14 @@
+<div class="center">
+    <h2 class="app-title">WELCOME {{firstName}} {{lastName}}</h2>
+    <mat-form-field appearance="fill">
+        <textarea matInput class="todoListBox" [(ngModel)]="todoItems" type="text" placeholder="Enter The Todo List"></textarea>
+      </mat-form-field>
+      <div class="btn-align">
+      <button mat-raised-button color="accent" class="clr-btn-align" (click)="onTodoitemsClear()">CLEAR</button>
+        <button mat-raised-button color="primary" (click)="onTodoitemsSubmit()">ADD</button>
+    </div>
+         <h2 class="app-title" *ngFor="let list of todoItemsCollection">{{list}}</h2>
+</div>
+
+
+
